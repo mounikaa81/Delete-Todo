@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.outer-con {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc2a0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-height: 200px;
+}
+.white-con {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: space-between;
+
+  min-height: 20vh;
+  border-radius: 10px;
+  max-height: 100vh;
+  width: 80%;
+  list-style-type: none;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headingg {
+  color: #ff8542;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.list-con {
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: none;
+}
+
+@media screen and (max-width: 770px) {
+  .headingg {
+    color: #ff8542;
+    padding-top: 20px;
+
+    font-size: 15px;
+  }
+  .white-con {
+    width: 90%;
+    min-width: 10vh;
+  }
+  .outer-con {
+    min-height: 200px;
+  }
+}

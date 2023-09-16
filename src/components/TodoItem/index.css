@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.todo-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.button {
+  height: 1.6rem;
+  margin-top: 1.3rem;
+
+  margin-left: 2rem;
+  width: 5rem;
+  border-radius: 5px;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+}
+.heading {
+  font-size: 15px;
+  color: #000;
+}
+@media screen and (max-width: 770px) {
+  .button {
+    margin-top: 1rem;
+    width: 4rem;
+    font-size: 10px;
+  }
+  .heading {
+    padding-top: 10px;
+  }
+}
